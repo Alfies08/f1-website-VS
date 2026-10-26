@@ -1,0 +1,923 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body
+{
+	background-color: rgb(255, 255, 255);
+	margin:0;
+}
+
+
+#wrapper
+{
+	width: 1380px;
+	height: 2750px;
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	margin: auto;
+	background-color: grey;
+}
+
+.back
+{
+	width: 200px;
+	height: 40px;
+	background-color: whitesmoke;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 24px;
+}
+
+.back a
+{
+	text-decoration: none;
+	color: black
+}
+
+.back:hover
+{
+	background-color: silver;
+}
+
+.header
+{
+	width: 1380px;
+	height: 70px;
+	background-color: whitesmoke;
+	text-align: center;
+}
+
+.subheader
+{
+	width: 1380px;
+	height: 60px;
+	background-color: whitesmoke;
+	text-align: center;
+}
+
+.clubwrapper
+{
+	width: 690px;
+	height: 290px;
+	margin: 0 auto;
+}
+
+:root {
+    --red: red;
+    --silver: silver;
+    --orange: orange;
+    --dark-red: darkred;
+    --sky-blue: skyblue;
+    --dark-green: darkgreen;
+    --gold: gold;
+    --goldenrod: goldenrod;
+	--orange-red: orangered;
+	--white: white;
+	--blue: blue;
+	--light-blue: lightblue;
+	--yellow: yellow;
+	--green: green;
+	--white-smoke: whitesmoke;
+	--cadet-blue: cadetblue;
+	--cornflower-blue: cornflowerblue;
+	--black: black;
+	--dark-blue: darkblue;
+	--silver: silver;
+}
+
+/* Shared tile styling used by .club, .icon, .tracks, .logo, .WorldChamps, .teamchamps */
+.tile
+{
+	width: 160px;          /* box width now matches the image width */
+	border: 5px groove white;
+	float: left;
+	margin: 10px;
+	animation-name: spin;
+	animation-duration: 0.6s;
+	animation-fill-mode: linear;
+	transform: rotate(0deg)
+	/* no height set - box height now comes from its content (image + text) */
+}
+
+.tile:hover {
+    background-color: var(--club-color);
+    border: 5px solid black;
+}
+
+.tile img
+{
+	display: block;
+	width: 160px;
+	height: 140px;
+	margin: 0 auto;
+	object-fit: contain;
+}
+
+.tile .stats
+{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 6px 0 0;
+	padding: 6px;
+	background: white;
+	color: black;
+	font-size: 14px;
+	text-align: left;
+}
+
+.club:nth-child(1):hover
+{
+	--club-color: var(--silver); 
+}
+
+.club:nth-child(2):hover
+{
+	--club-color: var(--red); 
+}
+
+.club:nth-child(3):hover
+{
+	--club-color: var(--orange); 
+}
+
+.club:nth-child(4):hover
+{
+	--club-color: var(--orange-red); 
+}
+
+
+.club:nth-child(5):hover
+{
+	--club-color: var(--white); 
+}
+
+.club:nth-child(6):hover
+{
+	--club-color: var(--sky-blue); 
+}
+
+.club:nth-child(7):hover
+{
+	--club-color: var(--dark-red); 
+}
+
+.club:nth-child(8):hover
+{
+	--club-color: var(--dark-red); 
+}
+
+.club:nth-child(9):hover
+{
+	--club-color: var(--sky-blue); 
+}
+
+.club:nth-child(10):hover
+{
+	--club-color: var(--dark-green); 
+}
+
+.club:nth-child(11):hover
+{
+	--club-color: var(--white); 
+}
+
+
+.club:nth-child(12):hover
+{
+	--club-color: var(--goldenrod); 
+}	
+
+.club:nth-child(13):hover
+{
+	--club-color: var(--white); 
+}
+
+.club:nth-child(14):hover
+{
+	--club-color: var(--gold); 
+}
+.club:nth-child(15):hover
+{
+	--club-color: var(--gold); 
+}
+
+.icon:nth-child(1):hover
+{
+	--club-color: var(--red); 
+}
+
+.icon:nth-child(2):hover
+{
+	--club-color: var(--red); 
+}
+
+.icon:nth-child(3):hover
+{
+	--club-color: var(--red); 
+}
+
+.icon:nth-child(4):hover
+{
+	--club-color: var(--red); 
+}
+
+.icon:nth-child(5):hover
+{
+	--club-color: var(--blue);
+}
+
+.icon:nth-child(6):hover
+{
+	--club-color: var(--red);
+}
+
+.icon:nth-child(7):hover
+{
+	--club-color: var(--red);
+}
+
+.icon:nth-child(8):hover
+{
+	--club-color: var(--orange);
+}
+
+.icon:nth-child(9):hover
+{
+	--club-color: var(--light-blue);
+}
+
+.icon:nth-child(10):hover
+{
+	--club-color: var(--red);
+}
+
+.icon:nth-child(11):hover
+{
+	--club-color: var(--blue);
+}
+
+.icon:nth-child(12):hover
+{
+	--club-color: var(--blue);
+}
+
+.icon:nth-child(13):hover
+{
+	--club-color: var(--yellow);
+}
+
+.icon:nth-child(14):hover
+{
+	--club-color: var(--white);
+}
+
+.icon:nth-child(15):hover
+{
+	--club-color: var(--white);
+}
+
+.tracks a
+{
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+.tracks:nth-child(1):hover
+{
+	--club-color: var(--blue);
+}
+
+.tracks:nth-child(2):hover
+{
+	--club-color: var(--red);
+}
+
+.tracks:nth-child(3):hover
+{
+	--club-color: var(--white-smoke);
+}
+
+.tracks:nth-child(4):hover
+{
+	--club-color: var(--orange);
+}
+
+.tracks:nth-child(5):hover
+{
+	--club-color: var(--red);
+}
+
+.tracks:nth-child(6):hover
+{
+	--club-color: var(--red);
+}
+
+.tracks:nth-child(7):hover
+{
+	--club-color: var(--orange);
+}
+
+.tracks:nth-child(8):hover
+{
+	--club-color: var(--red);
+}
+
+.tracks:nth-child(9):hover
+{
+	--club-color: var(--blue);
+}
+
+.tracks:nth-child(10):hover
+{
+	--club-color: var(--yellow);
+}
+
+.tracks:nth-child(11):hover
+{
+	--club-color: var(--green);
+}
+
+.tracks:nth-child(12):hover
+{
+	--club-color: var(--blue);
+}
+
+.tracks:nth-child(13):hover
+{
+	--club-color: var(--green);
+}
+
+.tracks:nth-child(14):hover
+{
+	--club-color: var(--orange);
+}
+
+.tracks:nth-child(15):hover
+{
+	--club-color: var(--light-blue);
+}
+
+.tracks:nth-child(16):hover
+{
+	--club-color: var(--white);
+}
+
+.tracks:nth-child(17):hover
+{
+	--club-color: var(--blue);
+}
+
+.tracks:nth-child(18):hover
+{
+	--club-color: var(--green);
+}
+
+.tracks:nth-child(19):hover
+{
+	--club-color: var(--green);
+}
+
+.tracks:nth-child(20):hover
+{
+	--club-color: var(--blue);
+}
+
+.tracks:nth-child(21):hover
+{
+	--club-color: var(--dark-red);
+}
+
+.tracks:nth-child(22):hover
+{
+	--club-color: var(--white);
+}
+
+.tracks:nth-child(23):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.tracks:nth-child(24):hover
+{
+	--club-color: var(--dark-red);
+}
+
+.tracks:nth-child(25):hover
+{
+	--club-color: var(--dark-red);
+}
+
+.tracks:nth-child(26):hover
+{
+	--club-color: var(--dark-green);
+}
+
+.logo:nth-child(1):hover
+{
+	--club-color: var(--white);
+	
+}
+
+.logo:nth-child(2):hover
+{
+	--club-color: var(--white);
+}
+
+.logo:nth-child(3):hover
+{
+	--club-color: var(--white);
+}
+
+.WorldChamps:nth-child(1):hover
+{
+	--club-color: var(--red);
+}
+
+.WorldChamps:nth-child(2):hover
+{
+	--club-color: var(--red);
+}
+
+.WorldChamps:nth-child(3):hover
+{
+	--club-color: var(--yellow);
+}
+
+.WorldChamps:nth-child(4):hover
+{
+	--club-color: var(--red);
+}
+
+.WorldChamps:nth-child(5):hover
+{
+	--club-color: var(--red);
+}
+
+.WorldChamps:nth-child(6):hover
+{
+	--club-color: var(--red);
+}
+
+.WorldChamps:nth-child(7):hover
+{
+	--club-color: var(--red);
+}
+
+.WorldChamps:nth-child(8):hover
+{
+	--club-color: var(--blue);
+}
+
+.WorldChamps:nth-child(9):hover
+{
+	--club-color: var(--blue);
+}
+
+.WorldChamps:nth-child(10):hover
+{
+	--club-color: var(--yellow);
+}
+
+.WorldChamps:nth-child(11):hover
+{
+	--club-color: var(--yellow);
+}
+
+.WorldChamps:nth-child(12):hover
+{
+	--club-color: var(--white);
+}
+
+.WorldChamps:nth-child(13):hover
+{
+	--club-color: var(--white);
+}
+
+.WorldChamps:nth-child(14):hover
+{
+	--club-color: var(--orange-red);
+}
+
+.WorldChamps:nth-child(15):hover
+{
+	--club-color: var(--orange-red);
+}
+.WorldChamps:nth-child(16):hover
+{
+	--club-color: var(--red);
+}
+
+.WorldChamps:nth-child(17):hover
+{
+	--club-color: var(--red);
+}
+
+.WorldChamps:nth-child(18):hover
+{
+	--club-color: var(--red);
+}
+
+.WorldChamps:nth-child(19):hover
+{
+	--club-color: var(--red);
+}
+
+.WorldChamps:nth-child(20):hover
+{
+	--club-color: var(--red);
+}
+
+.WorldChamps:nth-child(21):hover
+{
+--club-color: var(--yellow);
+}
+
+.WorldChamps:nth-child(22):hover
+{
+	--club-color: var(--yellow);
+}
+
+.WorldChamps:nth-child(23):hover
+{
+	--club-color: var(--red);
+}
+
+.WorldChamps:nth-child(24):hover
+{
+	--club-color: var(--orange-red);
+}
+
+.WorldChamps:nth-child(25):hover
+{
+	--club-color: var(--yellow);
+}
+
+.WorldChamps:nth-child(26):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.WorldChamps:nth-child(27):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.WorldChamps:nth-child(28):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.WorldChamps:nth-child(29):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.WorldChamps:nth-child(30):hover
+{
+	--club-color: var(--silver);
+}
+
+.WorldChamps:nth-child(31):hover
+{
+	--club-color: var(--silver);
+}
+
+.WorldChamps:nth-child(32):hover
+{
+	--club-color: var(--silver);
+}
+
+.WorldChamps:nth-child(33):hover
+{
+	--club-color: var(--silver);
+}
+
+.WorldChamps:nth-child(34):hover
+{
+	--club-color: var(--silver);
+}
+
+.WorldChamps:nth-child(35):hover
+{
+	--club-color: var(--silver);
+}
+
+.WorldChamps:nth-child(36):hover
+{
+	--club-color: var(--silver);
+}
+
+.WorldChamps:nth-child(37):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.WorldChamps:nth-child(38):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.WorldChamps:nth-child(39):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.WorldChamps:nth-child(40):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+
+.WorldChamps:nth-child(41):hover
+{
+	--club-color: var(--orange-red);
+}
+
+.WorldChamps:nth-child(42):hover
+{
+	--club-color: var(--silver);
+}
+
+
+
+
+.teamchamps:nth-child(1):hover
+{
+	--club-color: var(--orange-red);
+}
+
+.teamchamps:nth-child(2):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(3):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(4):hover
+{
+	--club-color: var(--orange-red);
+}
+
+.teamchamps:nth-child(5):hover
+{
+	--club-color: var(--orange-red);
+}
+
+.teamchamps:nth-child(6):hover
+{
+	--club-color: var(--orange-red);
+}
+
+.teamchamps:nth-child(7):hover
+{
+	--club-color: var(--orange-red);
+}
+
+.teamchamps:nth-child(8):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(9):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(10):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(11):hover
+{
+	--club-color: var(--yellow);
+}
+
+.teamchamps:nth-child(12):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(13):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(14):hover
+{
+	--club-color: var(--orange-red);
+}
+
+.teamchamps:nth-child(15):hover
+{
+	--club-color: var(--red);
+}
+
+.teamchamps:nth-child(16):hover
+{
+	--club-color: var(--red);
+}
+
+.teamchamps:nth-child(17):hover
+{
+	--club-color: var(--red);
+}
+
+.teamchamps:nth-child(18):hover
+{
+	--club-color: var(--red);
+}
+
+.teamchamps:nth-child(19):hover
+{
+	--club-color: var(--red);
+}
+
+.teamchamps:nth-child(20):hover
+{
+	--club-color: var(--red);
+}
+
+.teamchamps:nth-child(21):hover
+{
+	--club-color: var(--yellow);
+}
+
+.teamchamps:nth-child(22):hover
+{
+	--club-color: var(--yellow);
+}
+
+.teamchamps:nth-child(23):hover
+{
+	--club-color: var(--red);
+}
+
+.teamchamps:nth-child(24):hover
+{
+	--club-color: var(--red);
+}
+
+.teamchamps:nth-child(25):hover
+{
+	--club-color: var(--yellow);
+}
+
+.teamchamps:nth-child(26):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(27):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(28):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(29):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(30):hover
+{
+	--club-color: var(--silver);
+}
+
+.teamchamps:nth-child(31):hover
+{
+	--club-color: var(--silver);
+}
+
+.teamchamps:nth-child(32):hover
+{
+	--club-color: var(--silver);
+}
+
+.teamchamps:nth-child(33):hover
+{
+	--club-color: var(--silver);
+}
+
+.teamchamps:nth-child(34):hover
+{
+	--club-color: var(--silver);
+}
+
+.teamchamps:nth-child(35):hover
+{
+	--club-color: var(--silver);
+}
+
+.teamchamps:nth-child(36):hover
+{
+	--club-color: var(--silver);
+}
+
+.teamchamps:nth-child(37):hover
+{
+	--club-color: var(--silver);
+}
+
+.teamchamps:nth-child(38):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(39):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(40):hover
+{
+	--club-color: var(--orange-red);
+}
+
+.teamchamps:nth-child(41):hover
+{
+	--club-color: var(--orange-red);
+}
+
+.teamchamps:nth-child(42):hover
+{
+	--club-color: var(--silver);
+}
+
+@keyframes spin
+{
+	0%
+	{
+		transform:scale(0) rotate(90deg);
+	}
+	
+	
+	
+	
+	100%
+	{
+		transform:scale(1) rotate(360deg);
+	}
+	
+}
+
+h1
+{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: black;
+	font-size:52px;
+	margin:0;
+}
+
+.clubstats
+{
+	width: 1000px;
+	height: 500px;
+	color: whitesmoke
+}
+
+.statbox
+{
+	width: 450px;
+	height: 450px;
+	float: left;
+	padding: 50px;
+}
+
+.footballlogo
+{
+	width: 350px;
+	height: 400px;
+	float: right;
+	padding: 50px ;
+}
+
+label 
+{
+	width: 150px;
+	height: 25px;
+	display: inline-block;
+	font-size: 20px;
+	text-transform: capitalize;
+}
+
+.stat
+{
+	width: 150px;
+	height: 30px;
+	border-radius: 20px;
+	border: 3px solid black
+}
