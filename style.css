@@ -789,47 +789,47 @@ body
 
 .teamchamps:nth-child(29):hover
 {
-	--club-color: var(--dark-blue);
+	--club-color: var(--orange);
 }
 
 .teamchamps:nth-child(30):hover
 {
-	--club-color: var(--silver);
+	--club-color: var(--red);
 }
 
 .teamchamps:nth-child(31):hover
 {
-	--club-color: var(--silver);
+	--club-color: var(--dark-blue);
 }
 
 .teamchamps:nth-child(32):hover
 {
-	--club-color: var(--silver);
+	--club-color: var(--dark-blue);
 }
 
 .teamchamps:nth-child(33):hover
 {
-	--club-color: var(--silver);
+	--club-color: var(--red);
 }
 
 .teamchamps:nth-child(34):hover
 {
-	--club-color: var(--silver);
+	--club-color: var(--red);
 }
 
 .teamchamps:nth-child(35):hover
 {
-	--club-color: var(--silver);
+	--club-color: var(--orange);
 }
 
 .teamchamps:nth-child(36):hover
 {
-	--club-color: var(--silver);
+	--club-color: var(--orange);
 }
 
 .teamchamps:nth-child(37):hover
 {
-	--club-color: var(--silver);
+	--club-color: var(--dark-blue);
 }
 
 .teamchamps:nth-child(38):hover
@@ -839,7 +839,7 @@ body
 
 .teamchamps:nth-child(39):hover
 {
-	--club-color: var(--dark-blue);
+	--club-color: var(--orange-red);
 }
 
 .teamchamps:nth-child(40):hover
