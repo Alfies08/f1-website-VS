@@ -421,7 +421,7 @@ body
 .logo:nth-child(1):hover
 {
 	--club-color: var(--white);
-	
+
 }
 
 .logo:nth-child(2):hover
@@ -786,145 +786,6 @@ body
 	--club-color: var(--red);
 }
 
-.teamchamps:nth-child(1):hover
-{
-	--club-color: var(--orange-red);
-}
-
-.teamchamps:nth-child(2):hover
-{
-	--club-color: var(--dark-blue);
-}
-
-.teamchamps:nth-child(3):hover
-{
-	--club-color: var(--dark-blue);
-}
-
-.teamchamps:nth-child(4):hover
-{
-	--club-color: var(--orange-red);
-}
-
-.teamchamps:nth-child(5):hover
-{
-	--club-color: var(--orange-red);
-}
-
-.teamchamps:nth-child(6):hover
-{
-	--club-color: var(--orange-red);
-}
-
-.teamchamps:nth-child(7):hover
-{
-	--club-color: var(--orange-red);
-}
-
-.teamchamps:nth-child(8):hover
-{
-	--club-color: var(--dark-blue);
-}
-
-.teamchamps:nth-child(9):hover
-{
-	--club-color: var(--dark-blue);
-}
-
-.teamchamps:nth-child(10):hover
-{
-	--club-color: var(--dark-blue);
-}
-
-.teamchamps:nth-child(11):hover
-{
-	--club-color: var(--yellow);
-}
-
-.teamchamps:nth-child(12):hover
-{
-	--club-color: var(--dark-blue);
-}
-
-.teamchamps:nth-child(13):hover
-{
-	--club-color: var(--dark-blue);
-}
-
-.teamchamps:nth-child(14):hover
-{
-	--club-color: var(--orange-red);
-}
-
-.teamchamps:nth-child(15):hover
-{
-	--club-color: var(--red);
-}
-
-.teamchamps:nth-child(16):hover
-{
-	--club-color: var(--red);
-}
-
-.teamchamps:nth-child(17):hover
-{
-	--club-color: var(--red);
-}
-
-.teamchamps:nth-child(18):hover
-{
-	--club-color: var(--red);
-}
-
-.teamchamps:nth-child(19):hover
-{
-	--club-color: var(--red);
-}
-
-.teamchamps:nth-child(20):hover
-{
-	--club-color: var(--red);
-}
-
-.teamchamps:nth-child(21):hover
-{
-	--club-color: var(--yellow);
-}
-
-.teamchamps:nth-child(22):hover
-{
-	--club-color: var(--yellow);
-}
-
-.teamchamps:nth-child(23):hover
-{
-	--club-color: var(--red);
-}
-
-.teamchamps:nth-child(24):hover
-{
-	--club-color: var(--red);
-}
-
-.teamchamps:nth-child(25):hover
-{
-	--club-color: var(--yellow);
-}
-
-.teamchamps:nth-child(26):hover
-{
-	--club-color: var(--dark-blue);
-}
-
-.teamchamps:nth-child(27):hover
-{
-	--club-color: var(--dark-blue);
-}
-
-.teamchamps:nth-child(28):hover
-{
-	--club-color: var(--dark-blue);
-}
 
 .teamchamps:nth-child(29):hover
 {
@@ -1002,15 +863,15 @@ body
 	{
 		transform:scale(0) rotate(90deg);
 	}
-	
-	
-	
-	
+
+
+
+
 	100%
 	{
 		transform:scale(1) rotate(360deg);
 	}
-	
+
 }
 
 h1
