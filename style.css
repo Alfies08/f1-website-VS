@@ -693,12 +693,12 @@ body
 
 .teamchamps:nth-child(10):hover
 {
-	--club-color: var(--grey);
+	--club-color: var(--dark-green);
 }
 
 .teamchamps:nth-child(11):hover
 {
-	--club-color: var(--grey);
+	--club-color: var(--dark-green);
 }
 
 .teamchamps:nth-child(12):hover
