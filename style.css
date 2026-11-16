@@ -87,6 +87,7 @@ body
 	--black: black;
 	--dark-blue: darkblue;
 	--silver: silver;
+	--grey: grey;
 }
 
 /* Shared tile styling used by .club, .icon, .tracks, .logo, .WorldChamps, .teamchamps */
@@ -685,7 +686,6 @@ body
 	--club-color: var(--white);
 }
 
-
 .teamchamps:nth-child(9):hover
 {
 	--club-color: var(--dark-green);
@@ -693,12 +693,12 @@ body
 
 .teamchamps:nth-child(10):hover
 {
-	--club-color: var(--dark-green);
+	--club-color: var(--grey);
 }
 
 .teamchamps:nth-child(11):hover
 {
-	--club-color: var(--dark-green);
+	--club-color: var(--grey);
 }
 
 .teamchamps:nth-child(12):hover
