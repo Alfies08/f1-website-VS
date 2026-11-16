@@ -819,12 +819,12 @@ body
 
 .teamchamps:nth-child(35):hover
 {
-	--club-color: var(--orange);
+	--club-color: var(--orange-red);
 }
 
 .teamchamps:nth-child(36):hover
 {
-	--club-color: var(--orange);
+	--club-color: var(--orange-red);
 }
 
 .teamchamps:nth-child(37):hover
@@ -853,6 +853,181 @@ body
 }
 
 .teamchamps:nth-child(42):hover
+{
+	--club-color: var(--orange-red);
+}
+
+.teamchamps:nth-child(43):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(44):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(45):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(46):hover
+{
+	--club-color: var(--yellow);
+}
+
+.teamchamps:nth-child(47):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(48):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(49):hover
+{
+	--club-color: var(--orange-red);
+}
+
+.teamchamps:nth-child(50):hover
+{
+	--club-color: var(--red);
+}
+
+.teamchamps:nth-child(51):hover
+{
+	--club-color: var(--red);
+}
+
+.teamchamps:nth-child(52):hover
+{
+	--club-color: var(--red);
+}
+
+.teamchamps:nth-child(53):hover
+{
+	--club-color: var(--red);
+}
+
+.teamchamps:nth-child(54):hover
+{
+	--club-color: var(--red);
+}
+
+.teamchamps:nth-child(55):hover
+{
+	--club-color: var(--red);
+}
+
+.teamchamps:nth-child(56):hover
+{
+	--club-color: var(--yellow);
+}
+
+.teamchamps:nth-child(57):hover
+{
+	--club-color: var(--yellow);
+}
+
+.teamchamps:nth-child(58):hover
+{
+	--club-color: var(--red);
+}
+
+.teamchamps:nth-child(59):hover
+{
+	--club-color: var(--red);
+}
+
+.teamchamps:nth-child(60):hover
+{
+	--club-color: var(--yellow);
+}
+
+.teamchamps:nth-child(61):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(62):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(63):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(64):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(65):hover
+{
+	--club-color: var(--silver);
+}
+
+.teamchamps:nth-child(66):hover
+{
+	--club-color: var(--silver);
+}
+
+.teamchamps:nth-child(67):hover
+{
+	--club-color: var(--silver);
+}
+
+.teamchamps:nth-child(68):hover
+{
+	--club-color: var(--silver);
+}
+
+.teamchamps:nth-child(69):hover
+{
+	--club-color: var(--silver);
+}
+
+.teamchamps:nth-child(70):hover
+{
+	--club-color: var(--silver);
+}
+
+.teamchamps:nth-child(71):hover
+{
+	--club-color: var(--silver);
+}
+
+.teamchamps:nth-child(72):hover
+{
+	--club-color: var(--silver);
+}
+
+.teamchamps:nth-child(73):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(74):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.teamchamps:nth-child(75):hover
+{
+	--club-color: var(--orange);
+}
+
+.teamchamps:nth-child(76):hover
+{
+	--club-color: var(--orange);
+}
+
+.teamchamps:nth-child(77):hover
 {
 	--club-color: var(--silver);
 }
