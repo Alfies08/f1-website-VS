@@ -647,7 +647,7 @@ body
 
 .teamchamps:nth-child(1):hover
 {
-	--club-color: var(--white);
+	--club-color: var(--green);
 }
 
 .teamchamps:nth-child(2):hover
