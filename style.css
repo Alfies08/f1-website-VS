@@ -282,6 +282,117 @@ body
 	--club-color: var(--white);
 }
 
+.icon:nth-child(16):hover
+{
+	--club-color: var(--orange);
+}
+
+.icon:nth-child(17):hover
+{
+	--club-color: var(--yellow);
+}
+
+
+.icon:nth-child(18):hover
+{
+	--club-color: var(--yellow);
+}
+
+.icon:nth-child(19):hover
+{
+	--club-color: var(--red);
+}
+
+.icon:nth-child(20):hover
+{
+	--club-color: var(--red);
+}
+
+.icon:nth-child(21):hover
+{
+	--club-color: var(--red);
+}
+
+.icon:nth-child(22):hover
+{
+	--club-color: var(--red);
+}
+
+.icon:nth-child(23):hover
+{
+	--club-color: var(--green);
+}
+
+.icon:nth-child(24):hover
+{
+	--club-color: var(--red);
+}
+
+.icon:nth-child(25):hover
+{
+	--club-color: var(--orange);
+}
+
+.icon:nth-child(26):hover
+{
+	--club-color: var(--orange);
+}
+
+.icon:nth-child(27):hover
+{
+	--club-color: var(--red);
+}
+
+.icon:nth-child(28):hover
+{
+	--club-color: var(--green);
+}
+
+.icon:nth-child(29):hover
+{
+	--club-color: var(--sky-blue);
+}
+
+.icon:nth-child(30):hover
+{
+	--club-color: var(--orange);
+}
+
+.icon:nth-child(31):hover
+{
+	--club-color: var(--orange);
+}
+
+.icon:nth-child(32):hover
+{
+	--club-color: var(--orange-red);
+}
+
+.icon:nth-child(33):hover
+{
+	--club-color: var(--orange);
+}
+
+.icon:nth-child(34):hover
+{
+	--club-color: var(--orange);
+}
+
+.icon:nth-child(35):hover
+{
+	--club-color: var(--red);
+}
+
+.icon:nth-child(36):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.icon:nth-child(37):hover
+{
+	--club-color: var(--dark-blue);
+}
+
 .tracks a
 {
 	display: block;
@@ -442,7 +553,7 @@ body
 
 .WorldChamps:nth-child(2):hover
 {
-	--club-color: var(--dark-red);
+	--club-color: var(--red);
 }
 
 .WorldChamps:nth-child(3):hover
@@ -452,7 +563,7 @@ body
 
 .WorldChamps:nth-child(4):hover
 {
-	--club-color: var(--silver);
+	--club-color: var(--red);
 }
 
 .WorldChamps:nth-child(5):hover
@@ -462,7 +573,7 @@ body
 
 .WorldChamps:nth-child(6):hover
 {
-	--club-color: var(--red);
+	--club-color: var(--silver);
 }
 
 .WorldChamps:nth-child(7):hover
@@ -477,146 +588,146 @@ body
 
 .WorldChamps:nth-child(9):hover
 {
-	--club-color: var(--blue);
+	--club-color: var(--red);
 }
 
 .WorldChamps:nth-child(10):hover
 {
-	--club-color: var(--yellow);
+	--club-color: var(--green);
 }
 
 .WorldChamps:nth-child(11):hover
 {
-	--club-color: var(--yellow);
+	--club-color: var(--green);
 }
 
 .WorldChamps:nth-child(12):hover
 {
-	--club-color: var(--white);
+	--club-color: var(--red);
 }
 
 .WorldChamps:nth-child(13):hover
 {
-	--club-color: var(--white);
+	--club-color: var(--blue);
 }
 
 .WorldChamps:nth-child(14):hover
 {
-	--club-color: var(--orange-red);
+	--club-color: var(--orange);
 }
 
 .WorldChamps:nth-child(15):hover
 {
-	--club-color: var(--orange-red);
+	--club-color: var(--red);
 }
 .WorldChamps:nth-child(16):hover
 {
-	--club-color: var(--red);
+	--club-color: var(--orange);
 }
 
 .WorldChamps:nth-child(17):hover
 {
-	--club-color: var(--red);
+	--club-color: var(--green);
 }
 
 .WorldChamps:nth-child(18):hover
 {
-	--club-color: var(--red);
+	--club-color: var(--green);
 }
 
 .WorldChamps:nth-child(19):hover
 {
-	--club-color: var(--red);
+	--club-color: var(--orange);
 }
 
 .WorldChamps:nth-child(20):hover
 {
-	--club-color: var(--red);
+	--club-color: var(--blue);
 }
 
 .WorldChamps:nth-child(21):hover
 {
---club-color: var(--yellow);
+--club-color: var(--orange);
 }
 
 .WorldChamps:nth-child(22):hover
 {
-	--club-color: var(--yellow);
+	--club-color: var(--sky-blue);
 }
 
 .WorldChamps:nth-child(23):hover
 {
-	--club-color: var(--red);
+	--club-color: var(--orange);
 }
 
 .WorldChamps:nth-child(24):hover
 {
-	--club-color: var(--orange-red);
+	--club-color: var(--light-blue);
 }
 
 .WorldChamps:nth-child(25):hover
 {
-	--club-color: var(--yellow);
+	--club-color: var(--orange-red);
 }
 
 .WorldChamps:nth-child(26):hover
 {
-	--club-color: var(--dark-blue);
+	--club-color: var(--red);
 }
 
 .WorldChamps:nth-child(27):hover
 {
-	--club-color: var(--dark-blue);
+	--club-color: var(--orange-red);
 }
 
 .WorldChamps:nth-child(28):hover
 {
-	--club-color: var(--dark-blue);
+	--club-color: var(--red);
 }
 
 .WorldChamps:nth-child(29):hover
 {
-	--club-color: var(--dark-blue);
+	--club-color: var(--orange);
 }
 
 .WorldChamps:nth-child(30):hover
 {
-	--club-color: var(--silver);
+	--club-color: var(--red);
 }
 
 .WorldChamps:nth-child(31):hover
 {
-	--club-color: var(--silver);
+	--club-color: var(--dark-blue);
 }
 
 .WorldChamps:nth-child(32):hover
 {
-	--club-color: var(--silver);
+	--club-color: var(--green);
 }
 
 .WorldChamps:nth-child(33):hover
 {
-	--club-color: var(--silver);
+	--club-color: var(--dark-blue);
 }
 
 .WorldChamps:nth-child(34):hover
 {
-	--club-color: var(--silver);
+	--club-color: var(--green);
 }
 
 .WorldChamps:nth-child(35):hover
 {
-	--club-color: var(--silver);
+	--club-color: var(--orange-red);
 }
 
 .WorldChamps:nth-child(36):hover
 {
-	--club-color: var(--silver);
+	--club-color: var(--orange-red);
 }
 
 .WorldChamps:nth-child(37):hover
 {
-	--club-color: var(--dark-blue);
+	--club-color: var(--orange-red);
 }
 
 .WorldChamps:nth-child(38):hover
@@ -626,12 +737,12 @@ body
 
 .WorldChamps:nth-child(39):hover
 {
-	--club-color: var(--dark-blue);
+	--club-color: var(--orange-red);
 }
 
 .WorldChamps:nth-child(40):hover
 {
-	--club-color: var(--dark-blue);
+	--club-color: var(--orange-red);
 }
 
 
@@ -642,9 +753,184 @@ body
 
 .WorldChamps:nth-child(42):hover
 {
+	--club-color: var(--orange-red);
+}
+
+.WorldChamps:nth-child(43):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.WorldChamps:nth-child(44):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.WorldChamps:nth-child(45):hover
+{
+	--club-color: var(--yellow);
+}
+
+.WorldChamps:nth-child(46):hover
+{
+	--club-color: var(--yellow);
+}
+
+.WorldChamps:nth-child(47):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.WorldChamps:nth-child(48):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.WorldChamps:nth-child(49):hover
+{
+	--club-color: var(--orange-red);
+}
+
+.WorldChamps:nth-child(50):hover
+{
+	--club-color: var(--orange-red);
+}
+
+.WorldChamps:nth-child(51):hover
+{
+	--club-color: var(--red);
+}
+
+.WorldChamps:nth-child(52):hover
+{
+	--club-color: var(--red);
+}
+
+.WorldChamps:nth-child(53):hover
+{
+	--club-color: var(--red);
+}
+
+.WorldChamps:nth-child(54):hover
+{
+	--club-color: var(--red);
+}
+
+.WorldChamps:nth-child(55):hover
+{
+	--club-color: var(--red);
+}
+
+.WorldChamps:nth-child(56):hover
+{
+	--club-color: var(--yellow);
+}
+
+.WorldChamps:nth-child(57):hover
+{
+	--club-color: var(--yellow);
+}
+
+.WorldChamps:nth-child(58):hover
+{
+	--club-color: var(--red);
+}
+
+.WorldChamps:nth-child(59):hover
+{
+	--club-color: var(--orange);
+}
+
+
+.WorldChamps:nth-child(60):hover
+{
+	--club-color: var(--yellow);
+}
+
+.WorldChamps:nth-child(61):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.WorldChamps:nth-child(62):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.WorldChamps:nth-child(63):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.WorldChamps:nth-child(64):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.WorldChamps:nth-child(65):hover
+{
 	--club-color: var(--silver);
 }
 
+.WorldChamps:nth-child(66):hover
+{
+	--club-color: var(--silver);
+}
+
+.WorldChamps:nth-child(67):hover
+{
+	--club-color: var(--silver);
+}
+
+.WorldChamps:nth-child(68):hover
+{
+	--club-color: var(--silver);
+}
+
+.WorldChamps:nth-child(69):hover
+{
+	--club-color: var(--silver);
+}
+
+.WorldChamps:nth-child(70):hover
+{
+	--club-color: var(--silver);
+}
+
+.WorldChamps:nth-child(71):hover
+{
+	--club-color: var(--silver);
+}
+
+.WorldChamps:nth-child(72):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.WorldChamps:nth-child(73):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.WorldChamps:nth-child(74):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.WorldChamps:nth-child(75):hover
+{
+	--club-color: var(--dark-blue);
+}
+
+.WorldChamps:nth-child(76):hover
+{
+	--club-color: var(--orange);
+}
+
+.WorldChamps:nth-child(77):hover
+{
+	--club-color: var(--silver);
+}
 
 .teamchamps:nth-child(1):hover
 {
